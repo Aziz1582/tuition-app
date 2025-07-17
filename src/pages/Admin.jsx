@@ -26,7 +26,9 @@ export default function Admin() {
           onChange={(e) => setEmail(e.target.value)}
           className="p-2 border rounded w-full mb-2"
         />
-        <button onClick={createStudent} className="px-4 py-2 bg-green-500 text-white rounded">Add Student</button>
+        <button onClick={createStudent} 
+          className="px-4 py-2 bg-green-500 text-white rounded"
+          >Add Student</button>
       </div>
       {/* TODO: Extend to set password via Cloud Function or Admin SDK */}
     </div>
